@@ -1,1 +1,28 @@
+* {
+    font-family: cursive;
+}
+.bg-info {
+    background-color: #7b6d8d!important; /* Light green for secondary backgrounds */
+}
 
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #A5C4D4;            /* Dark green for brand name & nav links for visibility */
+}
+
+.btn-info {
+    color: #000000;            /* Lightest shade for text on info button for contrast */
+    background-color: #ffffff; /* Light green for button background */
+    border-color: #fafafa;     /* Dark green for button border */
+}
+
+.btn-primary {
+    color: #f2fbf2;            /* Lightest shade for text */
+    font-size: 150%;
+    background-color: #8499b1; /* Dark green for primary button background */
+    border-color: #36151e;     /* Reddish-brown for border to use as accent */
+    border-width: thick;
+}
+
+body {
+    background-color: #A5C4D4; /* Lightest shade for body background to follow the 60% rule */
+}
